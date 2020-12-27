@@ -57,7 +57,7 @@
         android:layout_marginStart="16dp"
         app:layout_constraintStart_toEndOf="@id/icon_service_question"
         app:layout_constraintTop_toBottomOf="@id/cost_of_service"
-
+        style="@style/Widget.TipTime.TextView"
         />
 
     <RadioGroup
@@ -129,6 +129,7 @@
         android:layout_marginTop="8dp"
         tools:text="Tip Amount: $10"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/calculate_button" />
+        app:layout_constraintTop_toBottomOf="@id/calculate_button"
+        style="@style/Widget.TipTime.TextView"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
